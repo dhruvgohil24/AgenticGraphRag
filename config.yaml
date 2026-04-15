@@ -1,0 +1,19 @@
+# config.yaml
+
+paths:
+  data_dir: "data/raw"
+  chroma_dir: "data/chroma_db"
+
+ollama:
+  base_url: "http://localhost:11434"
+  llm_model: "llama3"
+  embed_model: "nomic-embed-text"
+  request_timeout: 180.0          # M4 is fast, but KG extraction needs headroom
+
+ingestion:
+  chunk_size: 512
+  chunk_overlap: 64
+  kg_max_triplets_per_chunk: 5   # Triplets to extract per chunk via LLM
+
+neo4j:
+  database: null              # Default AuraDB database name

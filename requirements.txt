@@ -1,0 +1,25 @@
+# Core orchestration
+llama-index==0.10.68
+llama-index-core==0.10.68
+llama-index-llms-ollama==0.1.5
+llama-index-embeddings-ollama==0.1.2
+llama-index-graph-stores-neo4j==0.1.4
+llama-index-vector-stores-chroma==0.1.10
+# Graph database driver
+neo4j==5.22.0
+
+# Vector database
+chromadb==0.4.24
+pydantic==1.10.13
+pydantic-settings==2.0.3
+
+# PDF parsing
+pypdf==4.3.1
+
+# Frontend
+streamlit==1.37.0
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.2
+tqdm==4.66.5
