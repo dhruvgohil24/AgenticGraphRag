@@ -1,0 +1,72 @@
+[
+{
+"id": "q001",
+"category": "factual",
+"question": "According to the lecture notes, what is artificial intelligence?",
+"ground_truth": "Artificial intelligence is the ability of machines to seemingly think for themselves. It is demonstrated when a task performed by a human and thought to require learning, reasoning, and problem-solving can be done by a machine. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q002",
+"category": "relational",
+"question": "How do machine learning and artificial intelligence relate to each other in the notes?",
+"ground_truth": "Machine learning is presented as a subset of artificial intelligence. The notes say ML focuses on machines receiving data and learning for themselves, while AI is the broader field. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q003",
+"category": "conceptual",
+"question": "What does deep learning mean in the lecture notes?",
+"ground_truth": "Deep learning is described as a class of machine learning that uses deep architectures or hierarchical learning approaches, and it uses deep neural networks. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q004",
+"category": "factual",
+"question": "What did Alan Turing propose in 1950, and what test became associated with his paper?",
+"ground_truth": "In 1950, Alan Turing published Computing Machinery and Intelligence, where he speculated about creating machines with true intelligence and proposed the famous Turing Test, also called the Imitation Game. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q005",
+"category": "relational",
+"question": "How did the Dartmouth meeting influence the development of artificial intelligence as a field?",
+"ground_truth": "The 1956 Dartmouth Summer Research Project on Artificial Intelligence, organized by John McCarthy, brought together talent for a month of brainstorming and helped establish the name 'artificial intelligence' and the groundwork for future AI research. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q006",
+"category": "conceptual",
+"question": "What is weak AI versus strong AI according to the notes?",
+"ground_truth": "Weak AI aims to build machines that act intelligently without claiming the machines are actually intelligent, while strong AI is the ambitious goal of building genuine minds or persons. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q007",
+"category": "factual",
+"question": "What are the four dimensions of artificial intelligence listed in the lecture notes?",
+"ground_truth": "The four dimensions are thinking humanly, thinking rationally, acting rationally, and acting humanly. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q008",
+"category": "relational",
+"question": "How do the notes connect intelligence, knowledge, and learning?",
+"ground_truth": "The notes say intelligence requires knowledge, knowledge accrues through learning, and machines need the ability to explore the world and acquire knowledge for problem-solving on their own. This idea drives machine learning. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q009",
+"category": "factual",
+"question": "What does the AI taxonomy diagram place inside Artificial Intelligence?",
+"ground_truth": "The taxonomy shows machine learning inside artificial intelligence, with neural networks and deep learning nested within machine learning, and spiking neural networks shown within the brain-inspired area. ",
+"expected_route": "hybrid"
+},
+{
+"id": "q010",
+"category": "relational",
+"question": "How did the history of AI evolve after the early expert-system era, according to the notes?",
+"ground_truth": "After the knowledge-based and expert-system era from roughly 1969 to 1985, the notes describe a rise of machine learning from 1986 onward, followed by a growing role for uncertainty starting around 1990 and AI becoming more integrated with learning, reasoning, and knowledge representation. ",
+"expected_route": "hybrid"
+}
+]
