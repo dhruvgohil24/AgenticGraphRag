@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# ChromaDB (large binary files, rebuilt by ingestion)
+data/chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Eval results (optional — commit if you want results in repo)
+data/eval/results/*.csv
+data/eval/results/*.json
+
+# Test scripts
+test_*.py
